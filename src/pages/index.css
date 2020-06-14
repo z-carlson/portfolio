@@ -1,0 +1,128 @@
+
+.projects-container {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.category-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.category-select {
+  font-weight: 800;
+  padding: 1rem;
+  margin: 1rem 1rem;
+  border: 1px solid var(--highlight-color);
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 3px 3px 3px 0px var(--highlight-color);
+}
+
+.category-select:hover {
+  background-color: var(--highlight-color);
+  color: white;
+}
+
+.category-select:focus {
+  outline: white solid 1px;
+}
+
+.source-link {
+  padding: 0.25rem 0.5rem;
+  margin-right: 1rem;
+  color: var(--highlight-color);
+  font-weight: 700;
+  border: 1px solid var(--highlight-color);
+}
+
+.demo-link {
+  padding: 0.25rem .5rem;
+  background-color: var(--highlight-color);
+  font-weight: 700;
+  color: white;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 200px;
+  align-items: baseline;
+}
+
+.project-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+.project-heading {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 2rem;
+}
+
+.project-text {
+  max-width: 40%;
+  flex-grow: 1;
+}
+
+.project-text h2 {
+  margin-top: 0px;
+}
+
+.project-text h4 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.project-text ul {
+  margin-top: 0; 
+}
+
+.project-text ul li{
+  list-style: circle;
+}
+
+.project-pic {
+  max-width: 50%;
+  flex-grow: 1;
+  padding-left: 3rem;
+  overflow: hidden;
+}
+
+.project-pic img {
+  width: 100%;
+  box-shadow: 0px 0px 10px 0px darkgray;
+}
+
+.main-blurb h1 {
+  font-size: 4rem;
+  font-family: monotype-grotesque-condensed;
+}
+
+
+.main-blurb p {
+  font-size: 1.2rem;
+  margin-top: 0px;
+}
+
+@media (max-width: 1000px) {
+  .project-pic {
+    max-width: 100%;
+    padding-left: 0px;
+    order: 1;
+  }
+
+  .project-text {
+    max-width: 100%;
+    order: 2;
+  }
+}
+

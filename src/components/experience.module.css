@@ -1,0 +1,27 @@
+.title {
+  margin: 0 0;
+  padding: 0 0;
+  text-transform: uppercase;
+  font-family: var(--font-headings);
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.date {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: var(--font-headings);
+  font-size: 1rem;
+}
+
+.location {
+  margin: 0 0;
+  padding: .2rem 0;
+  color: var(--highlight-color)
+}
+
+.summary {
+  margin-top: 0;
+  margin-bottom: 5rem;
+  line-height: 1.4rem;
+}

@@ -1,0 +1,20 @@
+@import url("https://use.typekit.net/dbg0kcf.css");
+
+
+:root {
+  --font-headings:monotype-grotesque-condensed, monospace;
+  --font-body: monotype-grotesque;
+  --highlight-color: rgb(0, 179, 179);
+  --background-color: #f3f3f3;
+}
+
+
+html {
+  background-color: var(--background-color);
+  background-image: url("../../static/natural-paper.png")
+}
+
+body {
+  margin: 0 0;
+  font-family: var(--font-body);
+}

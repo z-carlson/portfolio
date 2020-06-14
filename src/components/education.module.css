@@ -1,0 +1,15 @@
+.school {
+  margin: 0 0;
+  padding: 0 0;
+  text-transform: uppercase;
+}
+
+.grad, .program {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.gpa {
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
