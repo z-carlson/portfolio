@@ -1,3 +1,9 @@
+h1 {
+  font-size: 4rem;
+  font-family: var(--font-headings);
+  text-transform: uppercase;
+}
+
 
 .projects-container {
   width: 100%;
@@ -36,6 +42,16 @@
   color: var(--highlight-color);
   font-weight: 700;
   border: 1px solid var(--highlight-color);
+}
+
+#case-study {
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#case-study:hover {
+  cursor: pointer;
 }
 
 .demo-link {
@@ -102,15 +118,68 @@
   box-shadow: 0px 0px 10px 0px darkgray;
 }
 
-.main-blurb h1 {
-  font-size: 4rem;
-  font-family: monotype-grotesque-condensed;
-}
-
 
 .main-blurb p {
   font-size: 1.2rem;
   margin-top: 0px;
+}
+
+.modal-container {
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  padding: 5rem 5rem;
+  position: fixed;
+  display: flex;
+  top: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.modal-content {
+  background-color: white;
+  border: 1px solid var(--highlight-color);
+  padding: 1rem 1rem;
+  height: 80vh;
+  max-width: 900px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.toggle-modal {
+  padding: .5rem 1rem;
+  margin: 1rem 1rem;
+}
+
+.modal-content .toggle-modal {
+  align-self: flex-end;
+  border: 1px solid lightgray;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.modal-content img {
+  width: 50%;
+  border: 1px solid lightgray;
+  align-self: center;
+}
+
+.modal-content h2, h3 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.modal-content .toggle-modal:hover {
+  border: 1px solid var(--highlight-color);
+  color: var(--highlight-color)
 }
 
 @media (max-width: 1000px) {
@@ -123,6 +192,12 @@
   .project-text {
     max-width: 100%;
     order: 2;
+  }
+
+  .modal-content img {
+    width: 90%;
+    border: 1px solid lightgray;
+    align-self: center;
   }
 }
 

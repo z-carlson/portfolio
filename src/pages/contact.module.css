@@ -1,50 +1,56 @@
-.contactForm {
-  display: flex;
-  flex-direction: column;
-  width: 500px;
-}
-
-.textLabel {
-  font-size: .75rem;
-  font-weight: 700;
-  margin-top: 1.5rem;
-  margin-bottom: 5px;
-}
-
-.contactForm input {
-  padding: .5rem 0;
-  border: none;
-  border-radius: 5px;
-  padding: 0.5rem;
-}
-
-.contactForm textarea {
-  border: none;
-  border-radius: 5px;
-  padding: 0.5rem;
-  height: 15rem;
-
-}
-
-.neuomorphism {
-  background-color: rgba(0,0,0,0);
-  box-shadow: 1px 1px 3px 0px inset darkgray, -3px -3px 3px 0 inset white;
-}
-
-#submit {
-  margin-top: 2rem;
-  font-weight: 700;
-  background-color: rgb(49, 49, 49);
-  color: whitesmoke
-}
 
 h1 {
   font-size: 4rem;
   font-family: var(--font-headings);
 }
 
-@media (max-width: 500px) {
-  .contactForm {
-    width: 100%;
+.container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.items {
+  margin-bottom: 1rem;
+  padding: 1rem 0 1rem 1rem;
+  
+}
+
+.items a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icons {
+  width: 3rem;
+  margin-right: 2rem;
+}
+
+.neuomorphism {
+  background-color: rgba(0,0,0,0);
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px 0px inset darkgray, -3px -3px 3px 0 inset white;
+}
+
+h4 {
+  color: black;
+  font-family: var(--font-headings);
+  font-size: 1.2rem;
+  font-weight: normal;
+  word-break: break-word;
+  padding-right: 1rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
   }
+
+  .icons {
+    margin-right: 1rem;
+  }
+
 }

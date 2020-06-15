@@ -21,8 +21,9 @@ import styles from './resume.module.css'
 function Resume() {
   return (
     <Layout>
+      <h1>RESUME</h1>
       <div className={styles.resumeWrapper}>     
-        <h1>RESUME</h1>
+        
         <h2>Experience</h2>
         {experience.map((job, i) => {
           return (

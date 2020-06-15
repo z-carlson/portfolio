@@ -17,6 +17,9 @@
 .location {
   margin: 0 0;
   padding: .2rem 0;
+  font-size: 1rem;
+  font-family: var(--font-headings);
+  font-weight: normal;
   color: var(--highlight-color)
 }
 

@@ -31,3 +31,6 @@ h2 {
   text-decoration: underline;
   color: var(--highlight-color)
 }
+
+
+@media (max-width: 600px) {}

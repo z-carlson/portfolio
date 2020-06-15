@@ -16,5 +16,7 @@ html {
 
 body {
   margin: 0 0;
+  position: relative;
+  min-height: 100vh;
   font-family: var(--font-body);
 }

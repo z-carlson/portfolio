@@ -24,7 +24,7 @@ function chooseButtons(props, category) {
     case "designer" :
       return (
         <div>
-          <a className="source-link" href={props.link}>View Case Study</a>
+          <button id="case-study" className="source-link" onClick={props.toggleModal} href={props.link}>View Case Study</button>
         </div>
       )
     case "technical writer" :
